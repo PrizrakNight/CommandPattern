@@ -1,6 +1,4 @@
-﻿using CommandPattern.Models;
-
-namespace CommandPattern.Commands;
+﻿namespace CommandPattern.Commands;
 
 public class RemoveProductFromBasket : CommandBase
 {
