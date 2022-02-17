@@ -15,6 +15,7 @@ public static class ConsoleShop
         Console.WriteLine("Refresh|RF - Update the assortment of goods in the store.");
         Console.WriteLine("Products|P - Display available products in the store.");
         Console.WriteLine("Basket|B - Display products in basket.");
+        Console.WriteLine("Undo|U - Cancels the previous operation.");
         Console.WriteLine("Exit|E - Close program.");
     }
 
@@ -114,6 +115,8 @@ public static class ConsoleShop
         var command = new ClearBasketCommand(SimpleShop.UserBasket);
 
         _recorder.RecordCommand(command);
+
+        Console.WriteLine("OK.");
     }
 
     public static void UndoLastCommand()

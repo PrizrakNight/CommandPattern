@@ -68,6 +68,13 @@ while (true)
 
             break;
 
+        case "undo":
+        case "u":
+
+            ConsoleShop.UndoLastCommand();
+
+            break;
+
         default:
             Console.WriteLine("Unknown command.");
             break;
