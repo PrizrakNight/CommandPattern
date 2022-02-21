@@ -9,7 +9,7 @@ The project does not save commands to a file or other data source for subsequent
 - Remove product from basket.
 - Clear the basket.
 - Rollback last command.
-
+ 
 ## Nuget packages
 
 - [GenFu](https://www.nuget.org/packages/GenFu/) - Realistic test data generator.
